@@ -1,6 +1,6 @@
-import "./PopExit.css";
+import "./PopUser.css";
 
-export function PopExit() {
+export function PopUser() {
   return (
     <div className="pop-exit" id="popExit">
       <div className="pop-exit__container">

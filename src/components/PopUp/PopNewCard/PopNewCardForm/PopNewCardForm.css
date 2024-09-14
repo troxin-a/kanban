@@ -1,0 +1,14 @@
+.pop-new-card__form {
+  max-width: 370px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 495px) {
+  .pop-new-card__form {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+  }
+}/*# sourceMappingURL=PopNewCardForm.css.map */

@@ -57,12 +57,6 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.pop-new-card__form {
-  max-width: 370px;
-  width: 100%;
-  display: block;
-  margin-bottom: 20px;
-}
 
 .form-new__block {
   display: flex;
@@ -166,11 +160,6 @@
   }
   .pop-new-card__block {
     padding: 20px 16px 32px;
-  }
-  .pop-new-card__form {
-    max-width: 100%;
-    width: 100%;
-    display: block;
   }
   .pop-new-card__calendar {
     width: 100%;

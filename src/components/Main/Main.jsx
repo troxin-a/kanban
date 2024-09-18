@@ -1,17 +1,27 @@
 import { Column } from "./Column/Column";
 import "./Main.css";
 
-export function Main() {
+const statusList = [
+  "Без статуса",
+  "Нужно сделать",
+  "В работе",
+  "Тестирование",
+  "Готово",
+];
+
+export function Main(props) {
   return (
     <main className="main">
       <div className="container">
         <div className="main__block">
           <div className="main__content">
-            <Column name={"Без статуса"}/>
-            <Column name={"Нужно сделать"}/>
-            <Column name={"В работе"}/>
-            <Column name={"Тестирование"}/>
-            <Column name={"Готово"}/>
+            {statusList.map((status) => (
+              <Column
+                key={status}
+                title={status}
+                tasks={props.tasks.filter((task) => task.status === status)}
+              />
+            ))}
           </div>
         </div>
       </div>

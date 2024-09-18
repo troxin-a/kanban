@@ -1,0 +1,58 @@
+export const tasks = [
+  {
+    id: 1,
+    theme: "Web Design",
+    title: "Задача1",
+    date: "01.03.24",
+    status: "Без статуса",
+  },
+  {
+    id: 2,
+    theme: "Research",
+    title: "Задача2",
+    date: "01.04.24",
+    status: "Без статуса",
+  },
+  {
+    id: 3,
+    theme: "Web Design",
+    title: "Задача3",
+    date: "01.08.24",
+    status: "Без статуса",
+  },
+  {
+    id: 4,
+    theme: "Web Design",
+    title: "Задача4",
+    date: "01.03.24",
+    status: "Нужно сделать",
+  },
+  {
+    id: 5,
+    theme: "Research",
+    title: "Задача5",
+    date: "01.04.24",
+    status: "В работе",
+  },
+  {
+    id: 6,
+    theme: "Web Design",
+    title: "Задача6",
+    date: "01.08.24",
+    status: "Тестирование",
+  },
+  {
+    id: 7,
+    theme: "Web Design",
+    title: "Задача0",
+    date: "01.01.24",
+    status: "Готово",
+  },
+  {
+    id: 8,
+    theme: "Web Design",
+    title: "Задача34043",
+    date: "01.03.23",
+    status: "Готово",
+  },
+];

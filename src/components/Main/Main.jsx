@@ -1,5 +1,6 @@
+import { Container } from "../../styled/common/common.styled";
 import { Column } from "./Column/Column";
-import "./Main.css";
+import * as S from "./main.styled";
 
 const statusList = [
   "Без статуса",
@@ -11,10 +12,10 @@ const statusList = [
 
 export function Main(props) {
   return (
-    <main className="main">
-      <div className="container">
-        <div className="main__block">
-          <div className="main__content">
+    <S.Main>
+      <Container>
+        <S.MainBlock>
+          <S.MainContent>
             {statusList.map((status) => (
               <Column
                 key={status}
@@ -22,9 +23,9 @@ export function Main(props) {
                 tasks={props.tasks.filter((task) => task.status === status)}
               />
             ))}
-          </div>
-        </div>
-      </div>
-    </main>
+          </S.MainContent>
+        </S.MainBlock>
+      </Container>
+    </S.Main>
   );
 }

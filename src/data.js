@@ -36,7 +36,7 @@ export const tasks = [
   },
   {
     id: 6,
-    theme: "Web Design",
+    theme: "Copywriting",
     title: "Задача6",
     date: "01.08.24",
     status: "Тестирование",
@@ -50,7 +50,7 @@ export const tasks = [
   },
   {
     id: 8,
-    theme: "Web Design",
+    theme: "Copywriting",
     title: "Задача34043",
     date: "01.03.23",
     status: "Готово",

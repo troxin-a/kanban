@@ -3,7 +3,7 @@ import "./Column.css";
 
 export function Column(props) {
   return (
-    <div className="main__column column" key={props.key}>
+    <div className="main__column column">
       <div className="column__title">
         <p>{props.title}</p>
       </div>

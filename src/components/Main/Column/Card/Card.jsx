@@ -1,13 +1,15 @@
+import { topicHeader } from "../../../../lib/topic";
 import "./Card.css";
+import { CardTopic, TopicText } from "./Card.styled";
 
 export function Card(props) {
   return (
     <div className="cards__item" key={props.key}>
       <div className="cards__card card">
         <div className="card__group">
-          <div className="card__theme _orange">
-            <p className="_orange">{props.theme}</p>
-          </div>
+          <CardTopic $themeColor={topicHeader[props.theme]}>
+            <TopicText>{props.theme}</TopicText>
+          </CardTopic>
           <a href="#popBrowse" target="_self">
             <div className="card__btn">
               <div></div>

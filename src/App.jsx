@@ -9,7 +9,7 @@ import { useState, useEffect } from "react";
 function App() {
   const [taskList, setTaskList] = useState(tasks);
 
-  const AddTask = () => {
+  const addTask = () => {
     const newTask = {
       id: taskList.length + 1,
       theme: "Research",
@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="wrapper">
       <PopUp />
-      <Header AddTask={AddTask} />
+      <Header addTask={addTask} />
       {isLoading ? "Загрузка..." : <Main tasks={taskList} />}
     </div>
   );

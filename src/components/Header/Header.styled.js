@@ -1,17 +1,12 @@
-._hide {
-  display: none;
-}
+import { styled } from "styled-components";
 
-._dark {
-  display: none;
-}
-
-.header {
+export const Header = styled.header`
   width: 100%;
   margin: 0 auto;
-  background-color: #FFFFFF;
-}
-.header__block {
+  background-color: #ffffff;
+`;
+
+export const HeaderBlock = styled.div`
   height: 70px;
   display: flex;
   flex-wrap: nowrap;
@@ -21,4 +16,4 @@
   top: 0;
   left: 0;
   padding: 0 10px;
-}/*# sourceMappingURL=Header.css.map */
+`;

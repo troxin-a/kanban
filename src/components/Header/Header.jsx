@@ -1,16 +1,17 @@
-import "./Header.css";
 import { Logo } from "./Logo/Logo";
 import { Nav } from "./Nav/Nav";
+import * as S from "./Header.styled";
+import { Container } from "../../styled/common/common.styled";
 
-export function Header(props) {
+export function Header({addTask}) {
   return (
-    <header className="header">
-      <div className="container">
-        <div className="header__block">
+    <S.Header>
+      <Container>
+        <S.HeaderBlock>
           <Logo />
-          <Nav AddTask={props.AddTask}/>
-        </div>
-      </div>
-    </header>
+          <Nav addTask={addTask}/>
+        </S.HeaderBlock>
+      </Container>
+    </S.Header>
   );
 }

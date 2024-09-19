@@ -66,12 +66,12 @@ body {
 	    
 }
 
-.container {
-    max-width: 1260px;
-    width: 100%;        
-    margin: 0 auto;   
-    padding: 0 30px;
-}
+// .container {
+//     max-width: 1260px;
+//     width: 100%;        
+//     margin: 0 auto;   
+//     padding: 0 30px;
+// }
 
 // ========== hover ========
 
@@ -102,23 +102,14 @@ body {
 	display: block;
 }
 
-// ========== color ========
-._orange {
-	background-color: #FFE4C2;
-	color: #FF6D00;
+._hide {
+	display: none;
 }
-._green {
-	background-color: #B4FDD1;
-	color: #06B16E;
+
+._dark {
+	display: none;
 }
-._purple {
-	background-color: #E9D4FF;
-	color: #9A48F1;
-}
-._gray {
-	background: #94A6BE;
-	color: #FFFFFF;
-}
+
 ._active-category {
 	opacity: 1 !important;
 }
@@ -176,3 +167,4 @@ body {
 		color: #FFFFFF;
 	}
 }
+
